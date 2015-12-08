@@ -15,4 +15,4 @@ class Exercice2 {
 
 	}
 
-}a
+}
