@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Exercice1 {
+class Exercice2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -10,7 +10,7 @@ class Exercice1 {
         System.out.println("Veuillez saisir la quantité de produit:");
         int quant = sc.nextInt();
         int prix2 = prix*quant;
-        int ttc = prix2+(prix2*(tva/100))
+        int ttc = prix2+(prix2*(tva/100));
         System.out.println("Le prix TTC est " + ttc);
 
 	}
