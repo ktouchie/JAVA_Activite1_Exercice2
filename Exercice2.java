@@ -9,8 +9,8 @@ class Exercice2 {
         int tva = sc.nextInt();
         System.out.println("Veuillez saisir la quantite de produit:");
         int quant = sc.nextInt();
-        int prix2 = prix*quant;
-        float ttc = prix2+(prix2*(tva/100));
+        int prix2 = (prix*quant);
+        float ttc = (prix2+(prix2*(tva/100)));
         System.out.println("Le prix TTC est " + ttc);
 
 	}
