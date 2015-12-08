@@ -5,9 +5,12 @@ class Exercice1 {
 		Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez saisir le prix unitaire HT:");
         int prix = sc.nextInt();
+        System.out.println("Veuillez saisir le taux de TVA /(%/):");
+        int tva = sc.nextInt();
         System.out.println("Veuillez saisir la quantité de produit:");
         int quant = sc.nextInt();
-        int ttc = ((base*height)/2);
+        int prix2 = prix*quant;
+        int ttc = prix2+(prix2*(tva/100))
         System.out.println("Le prix TTC est " + ttc);
 
 	}
