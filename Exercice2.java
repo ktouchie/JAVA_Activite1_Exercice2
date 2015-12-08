@@ -11,7 +11,7 @@ class Exercice2 {
         int quant = sc.nextInt();
         int prix2 = (prix*quant);
         float ttc = (prix2+(prix2*(tva/100)));
-        System.out.println("Le prix TTC est €" + ttc);
+        System.out.println("Le prix TTC est " + ttc);
 
 	}
 
